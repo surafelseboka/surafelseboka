@@ -9,12 +9,4 @@ surafelseboka/surafelseboka is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-
-public void addAtBeginning(String data){
-        Node node = new Node(data);
-        if(this.head==null)
-        	this.head=this.tail=node;
-        else
-        	node.setNext(this.head);
-        	this.head=node;        
-	}
+ 
